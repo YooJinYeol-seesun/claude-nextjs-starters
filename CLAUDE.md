@@ -12,7 +12,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - **UI Components**: shadcn/ui (configured with New York style, RSC enabled)
 - **Icon Library**: lucide-react
 
-## 자주 사용하는 명령어
+## 자주 사용하는 명령어 
 
 ### 개발 및 빌드
 ```bash
