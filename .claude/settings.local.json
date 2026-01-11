@@ -1,7 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nshadcn/ui 초기 설정 및 프로젝트 문서화\n\n- shadcn/ui 관련 의존성 추가 \\(class-variance-authority, clsx, lucide-react, tailwind-merge, tw-animate-css\\)\n- OKLch 색상 시스템 기반 테마 변수 설정 \\(라이트/다크 모드 지원\\)\n- cn\\(\\) 유틸리티 함수 추가 \\(lib/utils.ts\\)\n- components.json 설정 파일 추가 \\(New York 스타일, RSC 활성화\\)\n- CLAUDE.md 프로젝트 문서 작성\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\n커스텀 커맨드 추가: review-ui\n\nUI/UX 관점에서 코드 리뷰를 수행하는 커스텀 커맨드 추가\n- 접근성, 반응형 디자인, 사용자 경험, 시각적 일관성, 성능 관점 리뷰\n- 점수 및 우선순위별 개선 사항 요약 제공\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push)"
     ]
   }
 }
